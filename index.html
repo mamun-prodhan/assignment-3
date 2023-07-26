@@ -19,22 +19,71 @@
       rel="stylesheet"
     />
     <style>
-        body{
-            font-family: 'Lato', sans-serif;
-        }
+      body {
+        font-family: "Lato", sans-serif;
+      }
     </style>
   </head>
-  <body>
-    <header>
+  <body data-theme="light">
+    <header class="container mx-auto">
+      <nav>
+        <div class="navbar bg-[#F85559] rounded-full px-8">
+          <div class="navbar-center">
+            <div class="dropdown">
+              <label tabindex="0" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </label>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              >
+                <li><a>Home</a></li>
+                <li><a>About Us</a></li>
+                <li><a>Shop</a></li>
+                <li><a>All Fruits</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- hidden in small -->
+          <div class="navbar-start hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li><a>Home</a></li>
+              <li><a>About Us</a></li>
+              <li><a>Shop</a></li>
+              <li><a>All Fruits</a></li>
+            </ul>
+          </div>
+          <img src="./images/logo.png" alt="">
+          <a class="btn btn-ghost normal-case text-xl">Fruit Brust</a>
 
+          <div class="navbar-end hidden lg:flex">
+            <div class="form-control">
+              <input
+                type="text"
+                placeholder="Search"
+                class="input input-bordered w-24 md:w-auto rounded-full"
+              />
+            </div>
+          </div>
+        </div>
+      </nav>
     </header>
 
-    <main>
+    <main></main>
 
-    </main>
-
-    <footer>
-        
-    </footer>
+    <footer></footer>
   </body>
 </html>
