@@ -12,6 +12,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet" />
+  <!-- font awesome icon -->
+  <script src="https://kit.fontawesome.com/08a0a3c52e.js" crossorigin="anonymous"></script>
   <style>
     body {
       font-family: "Lato", sans-serif;
@@ -136,7 +138,8 @@
       <div class="flex flex-col lg:flex-row gap-5 items-center justify-between mt-36 mb-20 p-5">
         <div class="lg:w-[50%]">
           <h2 class="text-3xl text-center lg:text-start font-extrabold mb-5">Deal of the day</h2>
-          <p class="text-center lg:text-start">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin
+          <p class="text-center lg:text-start">Contrary to popular belief, is not simply random text. It has roots in a
+            piece of classical Latin
             literature from 45 BC, making it over 2000 years old.</p>
         </div>
         <!-- count down div -->
@@ -167,7 +170,200 @@
           </div>
         </div>
       </div>
+      <!-- card div -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+        <!-- card 1 -->
+        <div class="card">
+          <figure class="px-10 pt-10">
+            <img src="./images/fruit1.png" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">12.90$ - 18.85$</h2>
+            <p>Grapes</p>
+            <div class=" text-red-600">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <div class="card-actions">
+              <button class="btn hover:bg-red-600 text-red-600 hover:text-white"
+                onclick="my_modal_1.showModal()">Details</button>
+              <!-- Open the modal using ID.showModal() method -->
+              <dialog id="my_modal_1" class="modal modal-bottom sm:modal-middle">
+                <form method="dialog" class="modal-box">
+                  <div class="card">
+                    <figure class="px-10 pt-10">
+                      <img src="./images/fruit1.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">12.90$ - 18.85$</h2>
+                      <p>Grapes</p>
+                      <div class=" text-red-600">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                      <div class="modal-action">
+                        <!-- if there is a button in form, it will close the modal -->
+                        <button class="btn hover:bg-red-600 text-red-600 hover:text-white">Close</button>
+                        <button class="btn hover:bg-red-600 text-red-600 hover:text-white">Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </dialog>
+            </div>
+          </div>
+        </div>
+        <!-- card 2 -->
+        <div class="card">
+          <figure class="px-10 pt-10">
+            <img src="./images/fruit1.png" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">12.90$ - 18.85$</h2>
+            <p>Grapes</p>
+            <div class=" text-red-600">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <div class="card-actions">
+              <button class="btn hover:bg-red-600 text-red-600 hover:text-white"
+                onclick="my_modal_2.showModal()">Details</button>
+              <!-- Open the modal using ID.showModal() method -->
+              <dialog id="my_modal_2" class="modal modal-bottom sm:modal-middle">
+                <form method="dialog" class="modal-box">
+                  <div class="card">
+                    <figure class="px-10 pt-10">
+                      <img src="./images/fruit1.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">12.90$ - 18.85$</h2>
+                      <p>Grapes</p>
+                      <div class=" text-red-600">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                      <div class="modal-action">
+                        <!-- if there is a button in form, it will close the modal -->
+                        <button class="btn hover:bg-red-600 text-red-600 hover:text-white">Close</button>
+                        <button class="btn hover:bg-red-600 text-red-600 hover:text-white">Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </dialog>
+            </div>
+          </div>
+        </div>
+        <!-- card 3 -->
+        <div class="card">
+          <figure class="px-10 pt-10">
+            <img src="./images/fruit1.png" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">12.90$ - 18.85$</h2>
+            <p>Grapes</p>
+            <div class=" text-red-600">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <div class="card-actions">
+              <button class="btn hover:bg-red-600 text-red-600 hover:text-white"
+                onclick="my_modal_3.showModal()">Details</button>
+              <!-- Open the modal using ID.showModal() method -->
+              <dialog id="my_modal_3" class="modal modal-bottom sm:modal-middle">
+                <form method="dialog" class="modal-box">
+                  <div class="card">
+                    <figure class="px-10 pt-10">
+                      <img src="./images/fruit1.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">12.90$ - 18.85$</h2>
+                      <p>Grapes</p>
+                      <div class=" text-red-600">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                      <div class="modal-action">
+                        <!-- if there is a button in form, it will close the modal -->
+                        <button class="btn hover:bg-red-600 text-red-600 hover:text-white">Close</button>
+                        <button class="btn hover:bg-red-600 text-red-600 hover:text-white">Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </dialog>
+            </div>
+          </div>
+        </div>
+        <!-- card 4 -->
+        <div class="card">
+          <figure class="px-10 pt-10">
+            <img src="./images/fruit1.png" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">12.90$ - 18.85$</h2>
+            <p>Grapes</p>
+            <div class=" text-red-600">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <div class="card-actions">
+              <button class="btn hover:bg-red-600 text-red-600 hover:text-white"
+                onclick="my_modal_4.showModal()">Details</button>
+              <!-- Open the modal using ID.showModal() method -->
+              <dialog id="my_modal_4" class="modal modal-bottom sm:modal-middle">
+                <form method="dialog" class="modal-box">
+                  <div class="card">
+                    <figure class="px-10 pt-10">
+                      <img src="./images/fruit1.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">12.90$ - 18.85$</h2>
+                      <p>Grapes</p>
+                      <div class=" text-red-600">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                      <div class="modal-action">
+                        <!-- if there is a button in form, it will close the modal -->
+                        <button class="btn hover:bg-red-600 text-red-600 hover:text-white">Close</button>
+                        <button class="btn hover:bg-red-600 text-red-600 hover:text-white">Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </dialog>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </section>
+
   </main>
 
   <footer></footer>
